@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <launch>
   <arg name="robot_type" default="mmo_500"/>
-  <arg name="robot_world" default="neo_workshop.world"/>>
-  <arg name="rviz" default="false"/>
+  <arg name="robot_world" default="cafe_500.sdf"/>
+  <!-- <arg name="robot_world" default="neo_workshop.world"/> -->
+  <arg name="rviz" default="true"/>
   <arg name="autonomous_navigation" default="false"/>
 
 <!---=================================================================================================================================================================-->

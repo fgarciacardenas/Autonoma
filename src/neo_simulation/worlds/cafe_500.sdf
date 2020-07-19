@@ -1,6 +1,5 @@
 <sdf version='1.6'>
   <world name='default'>
-    
     <light name='sun' type='directional'>
       <cast_shadows>1</cast_shadows>
       <pose frame=''>0 0 10 0 -0 0</pose>
@@ -51,68 +50,68 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
     <state world_name='default'>
-      <sim_time>15126 206000000</sim_time>
-      <real_time>1905 967509160</real_time>
-      <wall_time>1595131865 516311004</wall_time>
-      <iterations>182553</iterations>
+      <sim_time>15182 986000000</sim_time>
+      <real_time>58 52531877</real_time>
+      <wall_time>1595142208 466383044</wall_time>
+      <iterations>5678</iterations>
       <model name='beer'>
-        <pose frame=''>0.021463 6.29352 0.853027 -0.002234 -0.000236 -0.078101</pose>
+        <pose frame=''>0.024472 6.29311 0.853175 0.000543 5.8e-05 -0.077858</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.021456 6.29378 0.968026 -0.002234 -0.000236 -0.078101</pose>
-          <velocity>-0.000758 0.032116 -0.014885 -0.279168 -0.007736 -0.002374</velocity>
-          <acceleration>-0.065537 3.23881 -2.06126 -3.0205 -0.685161 -0.237296</acceleration>
-          <wrench>-0.02556 1.26314 -0.80389 0 -0 0</wrench>
+          <pose frame=''>0.024474 6.29305 0.968175 0.000543 5.8e-05 -0.077858</pose>
+          <velocity>-0.000103 -0.000272 0.005728 0.002365 -0.000892 3e-06</velocity>
+          <acceleration>-0.071966 3.09161 2.05258 -1.71991 -0.374215 -0.516736</acceleration>
+          <wrench>-0.028067 1.20573 0.800506 0 -0 0</wrench>
         </link>
       </model>
       <model name='beer_clone'>
-        <pose frame=''>-1.91565 -0.396174 0.853175 0.000543 5.8e-05 -0.077948</pose>
+        <pose frame=''>-1.91566 -0.396173 0.852268 1.4e-05 2.4e-05 -0.078334</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.91565 -0.396237 0.968175 0.000543 5.8e-05 -0.077948</pose>
-          <velocity>-0.000103 -0.000272 0.005728 0.002365 -0.000893 3e-06</velocity>
-          <acceleration>-0.071714 3.09161 2.05257 -1.71991 -0.37199 -0.516812</acceleration>
-          <wrench>-0.027969 1.20573 0.800504 0 -0 0</wrench>
+          <pose frame=''>-1.91566 -0.396175 0.967268 1.4e-05 2.4e-05 -0.078334</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>0 0 -9.8 0 -0 0</acceleration>
+          <wrench>0 0 -3.822 0 -0 0</wrench>
         </link>
       </model>
       <model name='beer_clone_0'>
-        <pose frame=''>2.67672 2.06208 0.852286 0.000283 0.000218 -0.084545</pose>
+        <pose frame=''>2.67673 2.06209 0.852285 0.000283 0.000205 -0.084545</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.67675 2.06205 0.967286 0.000283 0.000218 -0.084545</pose>
+          <pose frame=''>2.67675 2.06205 0.967285 0.000283 0.000205 -0.084545</pose>
           <velocity>0 0 0 0 -0 0</velocity>
           <acceleration>0 0 -9.8 0 -0 0</acceleration>
           <wrench>0 0 -3.822 0 -0 0</wrench>
         </link>
       </model>
       <model name='beer_clone_1'>
-        <pose frame=''>-0.103446 2.06407 0.853141 0.000109 2.5e-05 -0.078606</pose>
+        <pose frame=''>-0.100439 2.0636 0.853166 0.000373 4.6e-05 -0.079191</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-0.103444 2.06405 0.968141 0.000109 2.5e-05 -0.078606</pose>
-          <velocity>0.001603 -0.031074 -0.014641 0.269874 0.013981 -0.000121</velocity>
-          <acceleration>0.154028 -3.11598 -2.46493 1.92949 1.34344 -0.011529</acceleration>
-          <wrench>0.060071 -1.21523 -0.961323 0 -0 0</wrench>
+          <pose frame=''>-0.100437 2.06356 0.968166 0.000373 4.6e-05 -0.079191</pose>
+          <velocity>-0.000101 -0.00027 0.003819 0.002346 -0.000879 3e-06</velocity>
+          <acceleration>-0.133577 3.08448 1.84982 -1.65906 -1.08679 -0.151252</acceleration>
+          <wrench>-0.052095 1.20295 0.721431 0 -0 0</wrench>
         </link>
       </model>
       <model name='beer_clone_1_clone'>
-        <pose frame=''>-0.085405 4.11779 0.853123 0.000444 6.1e-05 -0.07845</pose>
+        <pose frame=''>-0.082435 4.11734 0.853166 0.000373 4.6e-05 -0.07881</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-0.085402 4.11774 0.968122 0.000444 6.1e-05 -0.07845</pose>
-          <velocity>0.001082 -0.031127 -0.014688 0.270381 0.008303 0.00226</velocity>
-          <acceleration>0.102197 -3.12091 -2.46962 1.97707 0.777534 0.226749</acceleration>
-          <wrench>0.039857 -1.21715 -0.96315 0 -0 0</wrench>
+          <pose frame=''>-0.082433 4.1173 0.968166 0.000373 4.6e-05 -0.07881</pose>
+          <velocity>-0.000101 -0.00027 0.003819 0.002346 -0.000878 3e-06</velocity>
+          <acceleration>-0.134584 3.08444 1.84989 -1.65872 -1.09561 -0.151096</acceleration>
+          <wrench>-0.052488 1.20293 0.721456 0 -0 0</wrench>
         </link>
       </model>
       <model name='beer_clone_1_clone_clone'>
-        <pose frame=''>2.21381 4.20098 0.853017 -0.002437 -0.00029 -0.07856</pose>
+        <pose frame=''>2.21678 4.20051 0.853171 0.000468 5.4e-05 -0.078351</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.2138 4.20126 0.968017 -0.002437 -0.00029 -0.07856</pose>
-          <velocity>-0.001081 0.032545 -0.014936 -0.282845 -0.011466 -0.004301</velocity>
-          <acceleration>-0.097975 3.28144 -1.87556 2.89685 -1.0604 -0.429935</acceleration>
-          <wrench>-0.03821 1.27976 -0.731467 0 -0 0</wrench>
+          <pose frame=''>2.21678 4.20046 0.968171 0.000468 5.4e-05 -0.078351</pose>
+          <velocity>-0.000101 -0.00027 0.004869 0.002345 -0.000878 3e-06</velocity>
+          <acceleration>-0.118572 3.0857 1.95578 -1.67076 -0.92036 -0.225739</acceleration>
+          <wrench>-0.046243 1.20342 0.762752 0 -0 0</wrench>
         </link>
       </model>
       <model name='cabinet'>
@@ -236,133 +235,221 @@
         </link>
       </model>
       <model name='coke_can'>
-        <pose frame=''>2.07491 6.27148 0.849696 -0.013734 -0.026346 -0.039488</pose>
+        <pose frame=''>2.07491 6.27148 0.849697 -0.013585 -0.026333 -0.039556</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.07491 6.27148 0.849696 -0.013734 -0.026346 -0.039488</pose>
+          <pose frame=''>2.07491 6.27148 0.849697 -0.013585 -0.026333 -0.039556</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>4e-06 -6e-06 0 0.00011 6.8e-05 -1e-06</acceleration>
-          <wrench>2e-06 -2e-06 0 0 -0 0</wrench>
+          <acceleration>3e-06 -5e-06 0 9.2e-05 5.7e-05 9e-06</acceleration>
+          <wrench>1e-06 -2e-06 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='coke_can_clone'>
-        <pose frame=''>2.21392 1.55099 0.849696 -0.013733 -0.026335 -0.039489</pose>
+        <pose frame=''>2.21392 1.55099 0.849697 -0.013582 -0.026323 -0.039557</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.21392 1.55099 0.849696 -0.013733 -0.026335 -0.039489</pose>
+          <pose frame=''>2.21392 1.55099 0.849697 -0.013582 -0.026323 -0.039557</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>4e-06 -6e-06 0 0.000113 7.1e-05 -3e-06</acceleration>
-          <wrench>2e-06 -2e-06 0 0 -0 0</wrench>
+          <acceleration>3e-06 -5e-06 0 9.2e-05 5.7e-05 9e-06</acceleration>
+          <wrench>1e-06 -2e-06 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='coke_can_clone_0'>
-        <pose frame=''>0.53579 -0.960236 0.849696 -0.013104 -0.02575 -0.039391</pose>
+        <pose frame=''>0.53579 -0.960238 0.849696 -0.013747 -0.026335 -0.03949</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.53579 -0.960236 0.849696 -0.013104 -0.02575 -0.039391</pose>
+          <pose frame=''>0.53579 -0.960238 0.849696 -0.013747 -0.026335 -0.03949</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-0.205758 0.021488 -0.054025 2.79553 0.467634 2.90788</acceleration>
-          <wrench>-0.080246 0.00838 -0.02107 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='coke_can_clone_1'>
-        <pose frame=''>0.589317 -0.683553 0.849696 -0.013298 -0.025795 -0.03932</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>0.589317 -0.683553 0.849696 -0.013298 -0.025795 -0.03932</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>4e-06 -5e-06 0 9.6e-05 5.9e-05 9e-06</acceleration>
-          <wrench>1e-06 -2e-06 0 0 -0 0</wrench>
-        </link>
-      </model>
-      <model name='coke_can_clone_2'>
-        <pose frame=''>2.31763 -0.400628 0.849695 -0.013493 -0.025842 -0.039242</pose>
-        <scale>1 1 1</scale>
-        <link name='link'>
-          <pose frame=''>2.31763 -0.400628 0.849695 -0.013493 -0.025842 -0.039242</pose>
-          <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>5e-06 -7e-06 0 0.000124 8.2e-05 -1e-05</acceleration>
+          <acceleration>4e-06 -6e-06 0 0.000114 7.3e-05 -6e-06</acceleration>
           <wrench>2e-06 -3e-06 0 0 -0 0</wrench>
         </link>
       </model>
-      <model name='coke_can_clone_3'>
-        <pose frame=''>-1.75378 2.02881 0.849694 -0.01368 -0.025882 -0.039165</pose>
+      <model name='coke_can_clone_1'>
+        <pose frame=''>0.589315 -0.683553 0.849696 -0.013101 -0.025775 -0.039391</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-1.75378 2.02881 0.849694 -0.01368 -0.025882 -0.039165</pose>
+          <pose frame=''>0.589315 -0.683553 0.849696 -0.013101 -0.025775 -0.039391</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>3e-06 -4e-06 0 6.9e-05 4.7e-05 -2e-06</acceleration>
+          <acceleration>0.092891 0.419499 0.085446 2.08309 1.47164 -2.89003</acceleration>
+          <wrench>0.036227 0.163604 0.033324 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='coke_can_clone_2'>
+        <pose frame=''>2.31763 -0.400628 0.849696 -0.0133 -0.025802 -0.039321</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>2.31763 -0.400628 0.849696 -0.0133 -0.025802 -0.039321</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>4e-06 -5e-06 0 9.6e-05 5.8e-05 9e-06</acceleration>
           <wrench>1e-06 -2e-06 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='coke_can_clone_3'>
+        <pose frame=''>-1.75378 2.02881 0.849695 -0.013508 -0.025843 -0.039243</pose>
+        <scale>1 1 1</scale>
+        <link name='link'>
+          <pose frame=''>-1.75378 2.02881 0.849695 -0.013508 -0.025843 -0.039243</pose>
+          <velocity>0 0 0 0 -0 0</velocity>
+          <acceleration>5e-06 -7e-06 0 0.000128 8.7e-05 -1.5e-05</acceleration>
+          <wrench>2e-06 -3e-06 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='coke_can_clone_3_clone'>
-        <pose frame=''>0.382532 3.85967 0.849694 -0.013674 -0.025898 -0.039162</pose>
+        <pose frame=''>0.38253 3.85967 0.849695 -0.013506 -0.025856 -0.03924</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.382532 3.85967 0.849694 -0.013674 -0.025898 -0.039162</pose>
+          <pose frame=''>0.38253 3.85967 0.849695 -0.013506 -0.025856 -0.03924</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>3e-06 -4e-06 0 7e-05 4.7e-05 -2e-06</acceleration>
-          <wrench>1e-06 -2e-06 0 0 -0 0</wrench>
+          <acceleration>5e-06 -7e-06 0 0.000125 8.3e-05 -1.1e-05</acceleration>
+          <wrench>2e-06 -3e-06 0 0 -0 0</wrench>
         </link>
       </model>
       <model name='coke_can_clone_4'>
-        <pose frame=''>2.70074 4.29854 0.849696 -0.013738 -0.026334 -0.039487</pose>
+        <pose frame=''>2.70074 4.29854 0.849697 -0.013584 -0.026322 -0.039556</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>2.70074 4.29854 0.849696 -0.013738 -0.026334 -0.039487</pose>
+          <pose frame=''>2.70074 4.29854 0.849697 -0.013584 -0.026322 -0.039556</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>4e-06 -6e-06 0 0.000108 6.8e-05 -3e-06</acceleration>
-          <wrench>2e-06 -2e-06 0 0 -0 0</wrench>
+          <acceleration>3e-06 -5e-06 0 9.3e-05 5.7e-05 9e-06</acceleration>
+          <wrench>1e-06 -2e-06 0 0 -0 0</wrench>
+        </link>
+      </model>
+      <model name='mmo_500'>
+        <pose frame=''>-1.02096 0.382922 0.072525 -2.1e-05 -3.1e-05 -0.218414</pose>
+        <scale>1 1 1</scale>
+        <link name='H1_F1_link_2'>
+          <pose frame=''>-1.41423 0.92514 0.545896 -1.50897 0.747483 -0.219491</pose>
+          <velocity>0.033236 -0.009601 -0.059474 -0.050417 -0.075188 -0.001122</velocity>
+          <acceleration>3.30886 -0.949554 -5.99547 -1.30902 0.922301 2.86635</acceleration>
+          <wrench>0.119345 -0.034249 -0.216246 0 -0 0</wrench>
+        </link>
+        <link name='H1_F2_link_2'>
+          <pose frame=''>-1.31283 0.902769 0.617861 1.67368 -1.53296 2.88425</pose>
+          <velocity>0.027774 -0.006219 -0.050719 -0.049669 -0.075348 -0.001146</velocity>
+          <acceleration>2.77983 -0.622101 -5.16526 0.713665 0.648666 2.99834</acceleration>
+          <wrench>0.100264 -0.022438 -0.186302 0 -0 0</wrench>
+        </link>
+        <link name='H1_F3_link_2'>
+          <pose frame=''>-1.4211 0.926861 0.679205 1.63674 0.823089 2.92512</pose>
+          <velocity>0.023193 -0.002971 -0.060072 -0.049508 -0.075396 -0.001711</velocity>
+          <acceleration>2.34026 -0.30981 -6.05363 -0.755833 0.879475 -2.08609</acceleration>
+          <wrench>0.084409 -0.011174 -0.218344 0 -0 0</wrench>
+        </link>
+        <link name='base_link'>
+          <pose frame=''>-1.02096 0.382922 0.072525 -2.1e-05 -3.1e-05 -0.218414</pose>
+          <velocity>-0.000188 5.3e-05 0 0 -0 3.2e-05</velocity>
+          <acceleration>-0.01876 0.00531 0 -7e-06 -6.8e-05 0.003187</acceleration>
+          <wrench>-1.28623 0.364102 3e-06 0 -0 0</wrench>
+        </link>
+        <link name='forearm_link'>
+          <pose frame=''>-1.37748 0.512422 1.19381 -3.14099 0.060111 2.92321</pose>
+          <velocity>-0.013342 0.002944 -0.040708 -0.015665 -0.070574 6e-05</velocity>
+          <acceleration>0.681624 -0.152922 -3.94654 -1.56446 -0.774719 -0.033769</acceleration>
+          <wrench>2.63788 -0.59181 -15.2731 0 -0 0</wrench>
+        </link>
+        <link name='mpo_500_omni_wheel_back_left_link'>
+          <pose frame=''>-1.20435 0.710444 0.20253 -3.14155 0.729467 2.9232</pose>
+          <velocity>-0.000198 4.7e-05 0 -0.000326 -0.001468 3.2e-05</velocity>
+          <acceleration>-0.01981 0.004693 0 -0.032578 -0.146778 0.00319</acceleration>
+          <wrench>-0.083204 0.01971 0 0 -0 0</wrench>
+        </link>
+        <link name='mpo_500_omni_wheel_back_right_link'>
+          <pose frame=''>-1.32569 0.163748 0.20253 3.7e-05 0.549852 2.92161</pose>
+          <velocity>-0.000181 4.3e-05 0 -0.000302 -0.001351 3.2e-05</velocity>
+          <acceleration>-0.018069 0.004306 0 -0.030213 -0.135102 0.00319</acceleration>
+          <wrench>-0.075888 0.018086 0 0 -0 0</wrench>
+        </link>
+        <link name='mpo_500_omni_wheel_front_left_link'>
+          <pose frame=''>-0.716231 0.602101 0.20253 -3.1415 0.720681 2.92324</pose>
+          <velocity>-0.000195 6.2e-05 0 -0.00033 -0.001485 3.2e-05</velocity>
+          <acceleration>-0.019465 0.006248 0 -0.032963 -0.148511 0.003196</acceleration>
+          <wrench>-0.081754 0.026241 0 0 -0 0</wrench>
+        </link>
+        <link name='mpo_500_omni_wheel_front_right_link'>
+          <pose frame=''>-0.837573 0.055405 0.20253 8.1e-05 0.546889 2.92163</pose>
+          <velocity>-0.000177 5.9e-05 0 -0.000303 -0.001354 3.2e-05</velocity>
+          <acceleration>-0.017723 0.005861 0 -0.030274 -0.135376 0.003195</acceleration>
+          <wrench>-0.074439 0.024618 0 0 -0 0</wrench>
+        </link>
+        <link name='shoulder_link'>
+          <pose frame=''>-0.820854 0.33853 1.00183 -2.7e-05 -3.8e-05 -0.218404</pose>
+          <velocity>-0.000186 5.9e-05 0 0 -0 1.5e-05</velocity>
+          <acceleration>-0.018625 0.005915 0 0 -0 0.001539</acceleration>
+          <wrench>-0.144869 0.046004 0 0 -0 0</wrench>
+        </link>
+        <link name='upper_arm_link'>
+          <pose frame=''>-0.772995 0.554229 1.00165 -0.001986 -1.25151 -0.216533</pose>
+          <velocity>-0.000197 6.1e-05 2e-06 -0.01518 -0.068389 5.9e-05</velocity>
+          <acceleration>-0.676901 0.150268 -2.03507 -1.50608 -0.558399 -0.003518</acceleration>
+          <wrench>-8.75233 1.94296 -26.3135 0 -0 0</wrench>
+        </link>
+        <link name='wrist_1_link'>
+          <pose frame=''>-1.34398 0.504632 0.622531 -3.13085 -1.51059 2.91249</pose>
+          <velocity>0.026976 -0.006003 -0.03823 -0.015952 -0.071867 6.1e-05</velocity>
+          <acceleration>2.69763 -0.60029 -3.82296 -1.59514 -0.903532 0.006613</acceleration>
+          <wrench>5.28735 -1.17657 -7.493 0 -0 0</wrench>
+        </link>
+        <link name='wrist_2_link'>
+          <pose frame=''>-1.31908 0.616799 0.622399 -3.12218 -1.51036 2.90393</pose>
+          <velocity>0.026979 -0.006003 -0.03823 -0.047327 -0.06491 -0.001871</velocity>
+          <acceleration>2.69789 -0.600348 -3.82296 1.78072 -0.258867 -0.18745</acceleration>
+          <wrench>5.28787 -1.17668 -7.49301 0 -0 0</wrench>
+        </link>
+        <link name='wrist_3_link'>
+          <pose frame=''>-1.43184 0.641793 0.615362 -3.11776 -1.51043 2.89964</pose>
+          <velocity>0.027478 -0.006122 -0.046732 -0.049643 -0.07536 -0.001857</velocity>
+          <acceleration>2.77955 -0.619535 -5.22583 -2.39647 -1.12377 -3.07108</acceleration>
+          <wrench>3.20204 -0.713704 -6.02016 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_standing'>
-        <pose frame=''>3.24972 6.27634 0.075483 -4.6e-05 -0.000139 -1.59013</pose>
+        <pose frame=''>3.24975 6.27647 0.075476 -7.7e-05 -0.000133 -1.58877</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>3.24972 6.27634 0.075483 -4.6e-05 -0.000139 -1.59013</pose>
+          <pose frame=''>3.24975 6.27647 0.075476 -7.7e-05 -0.000133 -1.58877</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.26773 1.73055 -0.776786 -1.74293 1.38758 0.044094</acceleration>
-          <wrench>101.419 138.444 -62.1429 0 -0 0</wrench>
+          <acceleration>1.17128 1.60328 -1.43779 -1.62279 1.28616 0.045709</acceleration>
+          <wrench>93.7024 128.263 -115.023 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_standing_0'>
-        <pose frame=''>-2.79958 1.80329 0.0755 8.7e-05 9.4e-05 1.57776</pose>
+        <pose frame=''>-2.79959 1.80318 0.075475 -7.9e-05 -0.000134 1.57901</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-2.79958 1.80329 0.0755 8.7e-05 9.4e-05 1.57776</pose>
+          <pose frame=''>-2.79959 1.80318 0.075475 -7.9e-05 -0.000134 1.57901</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.11285 1.60538 -1.57297 -1.62622 1.22365 0.044007</acceleration>
-          <wrench>89.0279 128.43 -125.838 0 -0 0</wrench>
+          <acceleration>-1.12981 -1.63468 -1.43124 1.65612 -1.24272 0.045704</acceleration>
+          <wrench>-90.3846 -130.774 -114.499 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_standing_1'>
-        <pose frame=''>0.362466 1.07321 0.075466 -0.000127 -0.000115 -3.12596</pose>
+        <pose frame=''>0.362615 1.07326 0.075477 -5.3e-05 -0.000154 -3.12454</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.362466 1.07321 0.075466 -0.000127 -0.000115 -3.12596</pose>
+          <pose frame=''>0.362615 1.07326 0.075477 -5.3e-05 -0.000154 -3.12454</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>1.68961 -1.15169 -1.25528 -1.95792 1.41961 -3.0812</acceleration>
-          <wrench>135.168 -92.1349 -100.423 0 -0 0</wrench>
+          <acceleration>1.6514 -1.11971 -1.39721 -1.94979 1.4109 -3.09489</acceleration>
+          <wrench>132.112 -89.5768 -111.777 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_walking'>
-        <pose frame=''>0.903978 10.7464 0.07465 0 -0 2.66186</pose>
+        <pose frame=''>0.904059 10.7464 0.075424 -0.00023 -0.000115 2.66067</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>0.903978 10.7464 0.07465 0 -0 2.66186</pose>
+          <pose frame=''>0.904059 10.7464 0.075424 -0.00023 -0.000115 2.66067</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>0 0 -9.8 0 -0 0</acceleration>
-          <wrench>0 0 -784 0 -0 0</wrench>
+          <acceleration>-0.092436 -2.44399 -2.06532 2.6379 0.078567 -0.114846</acceleration>
+          <wrench>-7.39491 -195.519 -165.225 0 -0 0</wrench>
         </link>
       </model>
       <model name='person_walking_clone'>
-        <pose frame=''>-2.45035 5.15606 0.075446 -0.000185 -8.3e-05 0.271097</pose>
+        <pose frame=''>-2.45016 5.15611 0.075446 -0.000185 -8.3e-05 0.267191</pose>
         <scale>1 1 1</scale>
         <link name='link'>
-          <pose frame=''>-2.45035 5.15606 0.075446 -0.000185 -8.3e-05 0.271097</pose>
+          <pose frame=''>-2.45016 5.15611 0.075446 -0.000185 -8.3e-05 0.267191</pose>
           <velocity>0 0 0 0 -0 0</velocity>
-          <acceleration>-1.62377 1.87876 -2.00862 1.29444 -1.50462 3.05387</acceleration>
-          <wrench>-129.901 150.301 -160.69 0 -0 0</wrench>
+          <acceleration>-1.61638 1.88499 -2.00873 1.28721 -1.51101 3.05363</acceleration>
+          <wrench>-129.31 150.799 -160.699 0 -0 0</wrench>
         </link>
       </model>
       <light name='sun'>
@@ -377,7 +464,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose frame=''>12.4449 -9.00959 15.5787 0 0.533795 2.19594</pose>
+        <pose frame=''>5.67921 -0.717243 4.57853 -0 0.537795 2.69994</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -2809,6 +2896,1787 @@
         <kinematic>0</kinematic>
       </link>
       <pose frame=''>-2.45066 5.15603 0.075508 0 -0.000124 2.66616</pose>
+    </model>
+    <model name='mmo_500'>
+      <link name='base_link'>
+        <pose frame=''>0 0 0 0 -0 0</pose>
+        <inertial>
+          <pose frame=''>0.010704 0 0.040692 0 -0 0</pose>
+          <mass>68.564</mass>
+          <inertia>
+            <ixx>5.03874</ixx>
+            <ixy>0</ixy>
+            <ixz>-0.486598</ixz>
+            <iyy>4.9584</iyy>
+            <iyz>0</iyz>
+            <izz>3.63946</izz>
+          </inertia>
+        </inertial>
+        <collision name='base_link_fixed_joint_lump__base_footprint_collision'>
+          <pose frame=''>0 0 0 -1.571 -0 1.571</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mpo_500/meshes/MPO-500-BODY.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base_link_fixed_joint_lump__cabinet_link_collision_1'>
+          <pose frame=''>0.072 0 0.386 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/cabin.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base_link_fixed_joint_lump__ur10_base_link_collision_2'>
+          <pose frame=''>0.205 0 0.802 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/base.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='base_link_fixed_joint_lump__camera_link_collision_3'>
+          <pose frame=''>0.319 0 0.734 0 -0 0</pose>
+          <geometry>
+            <box>
+              <size>0.07271 0.27794 0.073</size>
+            </box>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode/>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='base_link_fixed_joint_lump__base_footprint_visual'>
+          <pose frame=''>0 0 0 -1.571 -0 1.571</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mpo_500/meshes/MPO-500-BODY.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='base_link_fixed_joint_lump__cabinet_link_visual_1'>
+          <pose frame=''>0.072 0 0.386 0 0 -1.5708</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/cabin.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='base_link_fixed_joint_lump__ur10_base_link_visual_2'>
+          <pose frame=''>0.205 0 0.802 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/base.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='base_link_fixed_joint_lump__camera_link_visual_3'>
+          <pose frame=''>0.319 0 0.734 0 -0 1.5708</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/autlabs/autlab5/urdf/meshes/kinect.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>__default__</uri>
+              <name>__default__</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <sensor name='camera' type='depth'>
+          <always_on>1</always_on>
+          <update_rate>20</update_rate>
+          <camera name='__default__'>
+            <horizontal_fov>1.0472</horizontal_fov>
+            <image>
+              <format>B8G8R8</format>
+              <width>640</width>
+              <height>480</height>
+            </image>
+            <clip>
+              <near>0.05</near>
+              <far>8</far>
+            </clip>
+          </camera>
+          <plugin name='kinect_camera_controller' filename='libgazebo_ros_openni_kinect.so'>
+            <cameraName>camera</cameraName>
+            <alwaysOn>1</alwaysOn>
+            <updateRate>10</updateRate>
+            <imageTopicName>rgb/image_raw</imageTopicName>
+            <depthImageTopicName>depth/image_raw</depthImageTopicName>
+            <pointCloudTopicName>depth/points</pointCloudTopicName>
+            <cameraInfoTopicName>rgb/camera_info</cameraInfoTopicName>
+            <depthImageCameraInfoTopicName>depth/camera_info</depthImageCameraInfoTopicName>
+            <frameName>camera_depth_optical_frame</frameName>
+            <baseline>0.1</baseline>
+            <distortion_k1>0.0</distortion_k1>
+            <distortion_k2>0.0</distortion_k2>
+            <distortion_k3>0.0</distortion_k3>
+            <distortion_t1>0.0</distortion_t1>
+            <distortion_t2>0.0</distortion_t2>
+            <pointCloudCutoff>0.4</pointCloudCutoff>
+            <robotNamespace>/</robotNamespace>
+          </plugin>
+          <pose frame=''>0.319 0 0.734 0 -0 0</pose>
+        </sensor>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <link name='mpo_500_omni_wheel_back_left_link'>
+        <pose frame=''>-0.25 0.28 0.13 0 -0 0</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>4.2</mass>
+          <inertia>
+            <ixx>0.0338</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0338</iyy>
+            <iyz>0</iyz>
+            <izz>0.0338</izz>
+          </inertia>
+        </inertial>
+        <collision name='mpo_500_omni_wheel_back_left_link_collision'>
+          <pose frame=''>0 0 0 1.57 -0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.127</radius>
+            </sphere>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.045</mu>
+                <mu2>0.045</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='mpo_500_omni_wheel_back_left_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/MPO-500-WHEEL.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>__default__</uri>
+              <name>__default__</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='mpo_500_omni_wheel_back_left_joint' type='revolute'>
+        <child>mpo_500_omni_wheel_back_left_link</child>
+        <parent>base_link</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='mpo_500_omni_wheel_back_right_link'>
+        <pose frame=''>-0.25 -0.28 0.13 0 -0 3.14</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>4.2</mass>
+          <inertia>
+            <ixx>0.0338</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0338</iyy>
+            <iyz>0</iyz>
+            <izz>0.0338</izz>
+          </inertia>
+        </inertial>
+        <collision name='mpo_500_omni_wheel_back_right_link_collision'>
+          <pose frame=''>0 0 0 1.57 -0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.127</radius>
+            </sphere>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.045</mu>
+                <mu2>0.045</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='mpo_500_omni_wheel_back_right_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/MPO-500-WHEEL.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>__default__</uri>
+              <name>__default__</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='mpo_500_omni_wheel_back_right_joint' type='revolute'>
+        <child>mpo_500_omni_wheel_back_right_link</child>
+        <parent>base_link</parent>
+        <axis>
+          <xyz>-0.001593 -0.999999 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='mpo_500_omni_wheel_front_left_link'>
+        <pose frame=''>0.25 0.28 0.13 0 -0 0</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>4.2</mass>
+          <inertia>
+            <ixx>0.0338</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0338</iyy>
+            <iyz>0</iyz>
+            <izz>0.0338</izz>
+          </inertia>
+        </inertial>
+        <collision name='mpo_500_omni_wheel_front_left_link_collision'>
+          <pose frame=''>0 0 0 1.57 -0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.127</radius>
+            </sphere>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.045</mu>
+                <mu2>0.045</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='mpo_500_omni_wheel_front_left_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/MPO-500-WHEEL.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>__default__</uri>
+              <name>__default__</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='mpo_500_omni_wheel_front_left_joint' type='revolute'>
+        <child>mpo_500_omni_wheel_front_left_link</child>
+        <parent>base_link</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='mpo_500_omni_wheel_front_right_link'>
+        <pose frame=''>0.25 -0.28 0.13 0 -0 3.14</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>4.2</mass>
+          <inertia>
+            <ixx>0.0338</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0338</iyy>
+            <iyz>0</iyz>
+            <izz>0.0338</izz>
+          </inertia>
+        </inertial>
+        <collision name='mpo_500_omni_wheel_front_right_link_collision'>
+          <pose frame=''>0 0 0 1.57 -0 0</pose>
+          <geometry>
+            <sphere>
+              <radius>0.127</radius>
+            </sphere>
+          </geometry>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <friction>
+              <ode>
+                <mu>0.045</mu>
+                <mu2>0.045</mu2>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='mpo_500_omni_wheel_front_right_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>0.001 0.001 0.001</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/MPO-500-WHEEL.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <uri>__default__</uri>
+              <name>__default__</name>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <self_collide>0</self_collide>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='mpo_500_omni_wheel_front_right_joint' type='revolute'>
+        <child>mpo_500_omni_wheel_front_right_link</child>
+        <parent>base_link</parent>
+        <axis>
+          <xyz>-0.001593 -0.999999 0</xyz>
+          <limit>
+            <lower>-1e+16</lower>
+            <upper>1e+16</upper>
+          </limit>
+          <dynamics>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='shoulder_link'>
+        <pose frame=''>0.205 0 0.9293 0 -0 0</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>7.778</mass>
+          <inertia>
+            <ixx>0.0314743</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.0314743</iyy>
+            <iyz>0</iyz>
+            <izz>0.0218756</izz>
+          </inertia>
+        </inertial>
+        <collision name='shoulder_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/shoulder.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='shoulder_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/shoulder.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='shoulder_pan_joint' type='revolute'>
+        <child>shoulder_link</child>
+        <parent>base_link</parent>
+        <axis>
+          <xyz>0 0 1</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>330</effort>
+            <velocity>2.16</velocity>
+          </limit>
+          <dynamics>
+            <damping>0.5</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='upper_arm_link'>
+        <pose frame=''>0.205 0.220941 0.9293 0 -1.25 0</pose>
+        <inertial>
+          <pose frame=''>0 0 0.306 0 -0 0</pose>
+          <mass>12.93</mass>
+          <inertia>
+            <ixx>0.421754</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.421754</iyy>
+            <iyz>0</iyz>
+            <izz>0.0363656</izz>
+          </inertia>
+        </inertial>
+        <collision name='upper_arm_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/upperarm.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='upper_arm_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/upperarm.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='shoulder_lift_joint' type='revolute'>
+        <child>upper_arm_link</child>
+        <parent>shoulder_link</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>330</effort>
+            <velocity>2.16</velocity>
+          </limit>
+          <dynamics>
+            <damping>0.5</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='forearm_link'>
+        <pose frame=''>-0.375779 0.049041 1.12228 -3.14159 0.058407 -3.14159</pose>
+        <inertial>
+          <pose frame=''>0 0 0.28615 0 -0 0</pose>
+          <mass>3.87</mass>
+          <inertia>
+            <ixx>0.11107</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.11107</iyy>
+            <iyz>0</iyz>
+            <izz>0.0108844</izz>
+          </inertia>
+        </inertial>
+        <collision name='forearm_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/forearm.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='forearm_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/forearm.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='elbow_joint' type='revolute'>
+        <child>forearm_link</child>
+        <parent>upper_arm_link</parent>
+        <axis>
+          <xyz>0 1 -0</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>150</effort>
+            <velocity>3.15</velocity>
+          </limit>
+          <dynamics>
+            <damping>0.5</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='wrist_1_link'>
+        <pose frame=''>-0.342371 0.049041 0.550953 3.14159 -1.51239 3.14159</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>1.96</mass>
+          <inertia>
+            <ixx>0.00510825</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00510825</iyy>
+            <iyz>0</iyz>
+            <izz>0.0055125</izz>
+          </inertia>
+        </inertial>
+        <collision name='wrist_1_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/wrist1.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='wrist_1_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/wrist1.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='wrist_1_joint' type='revolute'>
+        <child>wrist_1_link</child>
+        <parent>forearm_link</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>54</effort>
+            <velocity>3.2</velocity>
+          </limit>
+          <dynamics>
+            <damping>0.5</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='wrist_2_link'>
+        <pose frame=''>-0.342371 0.163941 0.550953 3.14159 -1.51239 3.14159</pose>
+        <inertial>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <mass>1.96</mass>
+          <inertia>
+            <ixx>0.00510825</ixx>
+            <ixy>0</ixy>
+            <ixz>0</ixz>
+            <iyy>0.00510825</iyy>
+            <iyz>0</iyz>
+            <izz>0.0055125</izz>
+          </inertia>
+        </inertial>
+        <collision name='wrist_2_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/wrist2.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <visual name='wrist_2_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/wrist2.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='wrist_2_joint' type='revolute'>
+        <child>wrist_2_link</child>
+        <parent>wrist_1_link</parent>
+        <axis>
+          <xyz>-0.998295 0 -0.058374</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>54</effort>
+            <velocity>3.2</velocity>
+          </limit>
+          <dynamics>
+            <damping>0.5</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='wrist_3_link'>
+        <pose frame=''>-0.457874 0.163941 0.544199 3.14159 -1.51239 3.14159</pose>
+        <inertial>
+          <pose frame=''>0.000155 0.149123 0.008681 0 -0 0</pose>
+          <mass>1.152</mass>
+          <inertia>
+            <ixx>0.0107281</ixx>
+            <ixy>-5.10671e-06</ixy>
+            <ixz>-2.18291e-06</ixz>
+            <iyy>0.0052651</iyy>
+            <iyz>-0.0003303</iyz>
+            <izz>0.0111707</izz>
+          </inertia>
+        </inertial>
+        <collision name='wrist_3_link_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/wrist3.dae</uri>
+            </mesh>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__ee_link_collision_1'>
+          <pose frame=''>-0 0.0822 0 0 -0 1.5708</pose>
+          <geometry>
+            <box>
+              <size>0.01 0.01 0.01</size>
+            </box>
+          </geometry>
+          <max_contacts>10</max_contacts>
+          <surface>
+            <contact>
+              <ode/>
+            </contact>
+            <bounce/>
+            <friction>
+              <torsional>
+                <ode/>
+              </torsional>
+              <ode/>
+            </friction>
+          </surface>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_ur10_base_link_collision_2'>
+          <pose frame=''>0 0.1037 0 -1.5708 -0 -0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/palm_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_F1_ur10_base_link_collision_3'>
+          <pose frame=''>-0.045 0.103865 0.025981 1.5708 0.762991 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_base_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>1000</mu>
+                <mu2>1000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_F1_link_1_collision_4'>
+          <pose frame=''>-0.069188 0.220695 0.051278 1.64149 0.762991 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_prox_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>100</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_F2_ur10_base_link_collision_5'>
+          <pose frame=''>0 0.103865 -0.029019 -1.5708 0.022402 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_base_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_F2_link_1_collision_6'>
+          <pose frame=''>-0.000784 0.220695 -0.06401 -1.5001 0.022402 -0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_prox_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_F3_ur10_base_link_collision_7'>
+          <pose frame=''>0.045 0.103865 0.025981 1.5708 -0.807795 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_base_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='wrist_3_link_fixed_joint_lump__H1_F3_link_1_collision_8'>
+          <pose frame=''>0.070297 0.220695 0.050169 1.64149 -0.807795 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_prox_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='wrist_3_link_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/wrist3.dae</uri>
+            </mesh>
+          </geometry>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_ur10_base_link_visual_1'>
+          <pose frame=''>0 0.1037 0 -1.5708 -0 -0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/palm_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F1_palm_link_visual_2'>
+          <pose frame=''>-0.045 0.1037 0.025981 1.5708 0.785393 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_palm_link.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F1_ur10_base_link_visual_3'>
+          <pose frame=''>-0.045 0.103865 0.025981 1.5708 0.762991 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_base_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F1_link_1_visual_4'>
+          <pose frame=''>-0.069188 0.220695 0.051278 1.64149 0.762991 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_prox_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F2_palm_link_visual_5'>
+          <pose frame=''>0 0.1037 -0.029019 -1.5708 -0 -0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_palm_link.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F2_ur10_base_link_visual_6'>
+          <pose frame=''>0 0.103865 -0.029019 -1.5708 0.022402 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_base_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F2_link_1_visual_7'>
+          <pose frame=''>-0.000784 0.220695 -0.06401 -1.5001 0.022402 -0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_prox_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F3_palm_link_visual_8'>
+          <pose frame=''>0.045 0.1037 0.025981 1.5708 -0.785393 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_palm_link.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F3_ur10_base_link_visual_9'>
+          <pose frame=''>0.045 0.103865 0.025981 1.5708 -0.807795 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_base_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='wrist_3_link_fixed_joint_lump__H1_F3_link_1_visual_10'>
+          <pose frame=''>0.070297 0.220695 0.050169 1.64149 -0.807795 3.14159</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_prox_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='wrist_3_joint' type='revolute'>
+        <child>wrist_3_link</child>
+        <parent>wrist_2_link</parent>
+        <axis>
+          <xyz>0 1 0</xyz>
+          <limit>
+            <lower>-3.14159</lower>
+            <upper>3.14159</upper>
+            <effort>54</effort>
+            <velocity>3.2</velocity>
+          </limit>
+          <dynamics>
+            <damping>0.5</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+      </joint>
+      <link name='H1_F1_link_2'>
+        <pose frame=''>-0.502139 0.444486 0.475239 -1.50697 0.749398 -0</pose>
+        <inertial>
+          <pose frame=''>0.000147 -0.001929 0.020669 0 -0 0</pose>
+          <mass>0.0360682</mass>
+          <inertia>
+            <ixx>1.45995e-05</ixx>
+            <ixy>-5.02031e-08</ixy>
+            <ixz>-1.65836e-07</ixz>
+            <iyy>1.46464e-05</iyy>
+            <iyz>-2.25421e-07</iyz>
+            <izz>4.03881e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name='H1_F1_link_2_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_dist_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>100</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='H1_F1_link_2_fixed_joint_lump__H1_F1_tip_collision_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/omd-d18-tip.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='H1_F1_link_2_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_dist_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='H1_F1_link_2_fixed_joint_lump__H1_F1_tip_visual_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/omd-d18-tip.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='H1_F1J3' type='revolute'>
+        <child>H1_F1_link_2</child>
+        <parent>wrist_3_link</parent>
+        <axis>
+          <xyz>0.732099 0 -0.681198</xyz>
+          <limit>
+            <lower>-1.0472</lower>
+            <upper>1.5708</upper>
+            <effort>50</effort>
+            <velocity>1</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+            <cfm_damping>1</cfm_damping>
+            <limit>
+              <cfm>0</cfm>
+              <erp>0.2</erp>
+            </limit>
+          </ode>
+        </physics>
+      </joint>
+      <link name='H1_F2_link_2'>
+        <pose frame=''>-0.398162 0.444486 0.547001 1.63463 -1.53479 -3.14159</pose>
+        <inertial>
+          <pose frame=''>0.000147 -0.001929 0.020669 0 -0 0</pose>
+          <mass>0.0360682</mass>
+          <inertia>
+            <ixx>1.45995e-05</ixx>
+            <ixy>-5.02031e-08</ixy>
+            <ixz>-1.65836e-07</ixz>
+            <iyy>1.46464e-05</iyy>
+            <iyz>-2.25421e-07</iyz>
+            <izz>4.03881e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name='H1_F2_link_2_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_dist_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='H1_F2_link_2_fixed_joint_lump__H1_F2_tip_collision_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/omd-d18-tip.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='H1_F2_link_2_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_dist_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='H1_F2_link_2_fixed_joint_lump__H1_F2_tip_visual_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/omd-d18-tip.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='H1_F2J3' type='revolute'>
+        <child>H1_F2_link_2</child>
+        <parent>wrist_3_link</parent>
+        <axis>
+          <xyz>-0.035998 -0 0.999352</xyz>
+          <limit>
+            <lower>-1.0472</lower>
+            <upper>1.5708</upper>
+            <effort>30</effort>
+            <velocity>1</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+            <cfm_damping>1</cfm_damping>
+            <limit>
+              <cfm>0</cfm>
+              <erp>0.2</erp>
+            </limit>
+          </ode>
+        </physics>
+      </joint>
+      <link name='H1_F3_link_2'>
+        <pose frame=''>-0.508958 0.444486 0.608561 1.63463 0.821409 3.14159</pose>
+        <inertial>
+          <pose frame=''>0.000147 -0.001929 0.020669 0 -0 0</pose>
+          <mass>0.0360682</mass>
+          <inertia>
+            <ixx>1.45995e-05</ixx>
+            <ixy>-5.02031e-08</ixy>
+            <ixz>-1.65836e-07</ixz>
+            <iyy>1.46464e-05</iyy>
+            <iyz>-2.25421e-07</iyz>
+            <izz>4.03881e-06</izz>
+          </inertia>
+        </inertial>
+        <collision name='H1_F3_link_2_collision'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_dist_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <collision name='H1_F3_link_2_fixed_joint_lump__H1_F3_tip_collision_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/omd-d18-tip.dae</uri>
+            </mesh>
+          </geometry>
+          <surface>
+            <contact>
+              <ode>
+                <kp>1e+06</kp>
+                <kd>10</kd>
+                <max_vel>1</max_vel>
+                <min_depth>0.001</min_depth>
+              </ode>
+            </contact>
+            <friction>
+              <ode>
+                <mu>100000</mu>
+                <mu2>100000</mu2>
+                <fdir1>1 0 0</fdir1>
+              </ode>
+              <torsional>
+                <ode/>
+              </torsional>
+            </friction>
+            <bounce/>
+          </surface>
+          <max_contacts>10</max_contacts>
+        </collision>
+        <visual name='H1_F3_link_2_visual'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/finger_dist_link_simple.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <visual name='H1_F3_link_2_fixed_joint_lump__H1_F3_tip_visual_1'>
+          <pose frame=''>0 0 0 0 -0 0</pose>
+          <geometry>
+            <mesh>
+              <scale>1 1 1</scale>
+              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/omd-d18-tip.dae</uri>
+            </mesh>
+          </geometry>
+          <material>
+            <script>
+              <name>Gazebo/DarkGrey</name>
+              <uri>file://media/materials/scripts/gazebo.material</uri>
+            </script>
+          </material>
+        </visual>
+        <velocity_decay/>
+        <gravity>1</gravity>
+        <velocity_decay/>
+        <self_collide>0</self_collide>
+        <enable_wind>0</enable_wind>
+        <kinematic>0</kinematic>
+      </link>
+      <joint name='H1_F3J3' type='revolute'>
+        <child>H1_F3_link_2</child>
+        <parent>wrist_3_link</parent>
+        <axis>
+          <xyz>-0.68119 0 -0.732106</xyz>
+          <limit>
+            <lower>-1.0472</lower>
+            <upper>1.5708</upper>
+            <effort>30</effort>
+            <velocity>1</velocity>
+          </limit>
+          <dynamics>
+            <damping>0</damping>
+            <friction>10</friction>
+            <spring_reference>0</spring_reference>
+            <spring_stiffness>0</spring_stiffness>
+          </dynamics>
+          <use_parent_model_frame>1</use_parent_model_frame>
+        </axis>
+        <physics>
+          <ode>
+            <implicit_spring_damper>1</implicit_spring_damper>
+            <cfm_damping>1</cfm_damping>
+            <limit>
+              <cfm>0</cfm>
+              <erp>0.2</erp>
+            </limit>
+          </ode>
+        </physics>
+      </joint>
+      <plugin name='mpo_500_controller' filename='libgazebo_ros_planar_move.so'>
+        <commandTopic>cmd_vel</commandTopic>
+        <odometryTopic>odom</odometryTopic>
+        <odometryFrame>odom</odometryFrame>
+        <odometryRate>20.0</odometryRate>
+        <robotBaseFrame>base_link</robotBaseFrame>
+        <robotNamespace>/</robotNamespace>
+      </plugin>
+      <plugin name='ros_control' filename='libgazebo_ros_control.so'>
+        <legacyModeNS>0</legacyModeNS>
+        <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+        <robotNamespace>/</robotNamespace>
+      </plugin>
+      <plugin name='gazebo_ros_moveit_planning_scene' filename='libgazebo_ros_moveit_planning_scene.so'>
+        <topicName>/planning_scene</topicName>
+        <sceneName>laboratory</sceneName>
+        <robotName>mmo_500</robotName>
+        <updatePeriod>0.5</updatePeriod>
+        <robotNamespace>/</robotNamespace>
+      </plugin>
+      <static>0</static>
+      <plugin name='gazebo_grasp_fix' filename='libgazebo_grasp_fix.so'>
+        <arm>
+          <arm_name>arm</arm_name>
+          <palm_link>wrist_3_link</palm_link>
+          <gripper_link>H1_F1_link_1</gripper_link>
+          <gripper_link>H1_F2_link_1</gripper_link>
+          <gripper_link>H1_F3_link_1</gripper_link>
+          <gripper_link>H1_F1_link_2</gripper_link>
+          <gripper_link>H1_F2_link_2</gripper_link>
+          <gripper_link>H1_F3_link_2</gripper_link>
+        </arm>
+        <forces_angle_tolerance>100</forces_angle_tolerance>
+        <update_rate>4</update_rate>
+        <grip_count_threshold>4</grip_count_threshold>
+        <max_grip_count>20</max_grip_count>
+        <release_tolerance>0.005</release_tolerance>
+        <disable_collisions_on_attach>0</disable_collisions_on_attach>
+        <contact_topic>__default_topic__</contact_topic>
+        <robotNamespace>/</robotNamespace>
+      </plugin>
+      <pose frame=''>0 0 0 0 -0 0</pose>
     </model>
   </world>
 </sdf>
