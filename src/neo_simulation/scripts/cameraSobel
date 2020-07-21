@@ -79,6 +79,30 @@ while not rospy.is_shutdown():
         beerMask = cv2.morphologyEx(beerMask, cv2.MORPH_CLOSE, kernel)
         beerMask = cv2.dilate(beerMask, kernel, iterations=2)
 
+        # Convert image to HSV color space. Increase V by a factor of 2 in order to have more visible things
+        H,S,V = Ihsv[:,:,0], Ihsv[:,:,1], Ihsv[:,:,2]
+        V = V * 2
+
+        hsv_image = cv2.merge([H,S,V])
+        image = cv2.cvtColor(hsv_image, cv2.COLOR_HSV2RGB)
+        image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
+
+        # Find Sobel derivatives in x and y direction. Compute magnitude with equal weight for both direction.
+        Dx = cv2.Sobel(image,cv2.CV_8UC1,1,0)
+        Dy = cv2.Sobel(image,cv2.CV_8UC1,0,1)
+        M = cv2.addWeighted(Dx, 1, Dy,1,0)
+
+        # Threshold your image using Otsu method
+        ret, binary = cv2.threshold(M,10,255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)
+
+        # Apply Closing
+        binary = binary.astype(np.uint8)
+        binary = cv2.morphologyEx(binary, cv2.MORPH_CLOSE, cv2.getStructuringElement(cv2.MORPH_ELLIPSE, (5, 5)))
+
+        # Apply Erosion to get rid of extra lines
+        kernel = np.ones((2,2),np.uint8)
+        erosion = cv2.erode(binary,kernel,iterations = 1)        
+
         # Find contours
         cnts1 = cv2.findContours(sodaMask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         cnts1 = cnts1[0] if len(cnts1) == 2 else cnts1[1]
@@ -96,7 +120,7 @@ while not rospy.is_shutdown():
                 cv2.rectangle(I, (x2, y2), (x2 + w2, y2 + h2), (36,255,12), 2)
                 cv2.putText(I, 'Beer', (x2, y2-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (36,255,12),2)
         # Mostrar la imagen
-        cv2.imshow("Imagen", I)
+        cv2.imshow("Imagen", erosion)
     # Esperar al bucle para actualizar
     cv2.waitKey(1)
     # Opcional: publicar la imagen de salida como tópico de ROS
