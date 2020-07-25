@@ -2,16 +2,27 @@
 
 <launch>
 
-  <!-- <arg name="env_map" default="$(find neo_simulation)/maps/$(env MAP_NAME).yaml" /> -->
-  <arg name="env_map" default="$(find neo_simulation)/maps/map.yaml" />
+    <!-- <arg name="env_map" default="$(find neo_simulation)/maps/$(env MAP_NAME).yaml" /> -->
+    <arg name="env_map" default="$(find neo_simulation)/maps/map.yaml" />
 
-  <!-- MAP SERVER -->
-  <node name="map_server" pkg="map_server" type="map_server" args="$(arg env_map)">
-  </node>
+    <!--- Depth image to laser scan -->
+    <arg name="range_max" value="6.0" />
+    <node pkg="depthimage_to_laserscan" type="depthimage_to_laserscan" name="depthimage_to_laserscan">
+        <remap from="camera_info" to="/camera/depth/camera_info" />
+        <remap from="image" to="/camera/depth/image_raw" />
+        <remap from="scan" to="/scan_converted" />
+        <param name="output_frame_id" value="camera_depth_frame" />
+        <param name="scan_height" value="10" />
+        <param name="range_max" value="$(arg range_max)" />
+    </node>
 
-  <node pkg="amcl" type="amcl" name="amcl">
-  	<remap from="scan" to="camera/depth/points"/>
-  	<rosparam file="$(find neo_simulation)/config/mmo_500/amcl/amcl_config.yaml" command="load" />
-  </node>
+    <!-- MAP SERVER -->
+    <node name="map_server" pkg="map_server" type="map_server" args="$(arg env_map)">
+    </node>
+
+    <node pkg="amcl" type="amcl" name="amcl">
+        <remap from="scan" to="scan_converted"/>
+    	<rosparam file="$(find neo_simulation)/config/mmo_500/amcl/amcl_config.yaml" command="load" />
+    </node>
 
 </launch>

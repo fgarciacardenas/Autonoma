@@ -11,6 +11,13 @@ import numpy as np
 from sensor_msgs.msg import Image
 from cv_bridge import CvBridge
 
+def is_contour_good(c):
+    # approximate the contour
+    peri = cv2.arcLength(c, True)
+    approx = cv2.approxPolyDP(c, 0.1 * peri, True)
+    # the contour is 'good' if it is a rectangle
+    return len(approx) == 4
+
 class Cam(object):
     def __init__(self, topic_name="camera/rgb/image_raw"):
         self.bridge = CvBridge()
