@@ -12,6 +12,9 @@
 	<arg name="world_name_global" value="$(find neo_simulation)/worlds/$(arg robot_world)"/>
   </include>
 
+  <!-- Move Group-->
+  <include file="$(find neo_mmo_500)/launch/move_group.launch"></include>
+
   <!-- Autonomous Navigation -->
   <group if="$(arg autonomous_navigation)">
       <include file="$(find neo_simulation)/launch/$(arg robot_type)/$(arg robot_type)_autonomous_navigation.launch"/>

@@ -494,7 +494,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-BODY.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-BODY.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -516,7 +516,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/cabin.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_500/meshes/cabin.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -538,7 +538,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/base.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/base.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -560,7 +560,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -582,7 +582,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -604,7 +604,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -626,7 +626,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -654,7 +654,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -676,7 +676,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -704,7 +704,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -726,7 +726,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -754,7 +754,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -776,7 +776,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -804,7 +804,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-BODY.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-BODY.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -819,7 +819,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_500/meshes/cabin.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_500/meshes/cabin.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -828,7 +828,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/base.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/base.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -837,7 +837,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -852,7 +852,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mpo_700/meshes/SICK-MICROSCAN3.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -867,7 +867,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -876,7 +876,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -891,7 +891,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -900,7 +900,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -915,7 +915,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -924,7 +924,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -939,7 +939,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-HEAD.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -948,7 +948,7 @@
           <geometry>
             <mesh>
               <scale>0.001 0.001 0.001</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/MPO-700-WHEEL.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1060,7 +1060,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/shoulder.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/shoulder.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1082,7 +1082,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/shoulder.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/shoulder.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1129,7 +1129,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/upperarm.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/upperarm.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1151,7 +1151,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/upperarm.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/upperarm.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1198,7 +1198,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/forearm.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/forearm.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1220,7 +1220,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/forearm.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/forearm.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1267,7 +1267,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist1.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist1.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1289,7 +1289,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist1.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist1.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1336,7 +1336,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist2.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist2.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1358,7 +1358,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist2.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist2.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1405,7 +1405,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist3.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist3.dae</uri>
             </mesh>
           </geometry>
           <max_contacts>10</max_contacts>
@@ -1448,7 +1448,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/palm_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/palm_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1479,7 +1479,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1510,7 +1510,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1541,7 +1541,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1572,7 +1572,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1603,7 +1603,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1634,7 +1634,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1665,7 +1665,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist3.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/wrist3.dae</uri>
             </mesh>
           </geometry>
         </visual>
@@ -1674,7 +1674,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/palm_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/palm_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1689,7 +1689,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_palm_link.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_palm_link.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1704,7 +1704,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1719,7 +1719,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1734,7 +1734,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_palm_link.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_palm_link.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1749,7 +1749,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1764,7 +1764,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1779,7 +1779,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_palm_link.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_palm_link.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1794,7 +1794,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_base_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1809,7 +1809,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_prox_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1873,7 +1873,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1904,7 +1904,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -1935,7 +1935,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -1950,7 +1950,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -2016,7 +2016,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -2047,7 +2047,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -2078,7 +2078,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -2093,7 +2093,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -2159,7 +2159,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -2190,7 +2190,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
             </mesh>
           </geometry>
           <surface>
@@ -2221,7 +2221,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/finger_dist_link_simple.dae</uri>
             </mesh>
           </geometry>
           <material>
@@ -2236,7 +2236,7 @@
           <geometry>
             <mesh>
               <scale>1 1 1</scale>
-              <uri>/home/facundo/autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
+              <uri>/home/nelson/Desktop/Autonoma/src/neo_simulation/robots/mmo_700/meshes/omd-d18-tip.dae</uri>
             </mesh>
           </geometry>
           <material>
