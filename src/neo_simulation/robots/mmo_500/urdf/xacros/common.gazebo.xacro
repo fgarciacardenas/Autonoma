@@ -22,9 +22,6 @@
         <arm>
            <arm_name>arm</arm_name>
            <palm_link>wrist_3_link</palm_link>
-           <gripper_link>H1_F1_link_1</gripper_link>
-           <gripper_link>H1_F2_link_1</gripper_link>
-           <gripper_link>H1_F3_link_1</gripper_link>
            <gripper_link>H1_F1_link_2</gripper_link>
            <gripper_link>H1_F2_link_2</gripper_link>
            <gripper_link>H1_F3_link_2</gripper_link>

@@ -1,0 +1,2 @@
+string can_type
+uint8 command
