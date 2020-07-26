@@ -125,12 +125,8 @@ while not rospy.is_shutdown():
         cv2.imshow("Imagen", I)
 
         tflistener = tf.TransformListener()
-        T = np.eye(4)
         try:
-            (trans, rot) = tflistener.lookupTransform(
-                'odom', 'base_link', rospy.Time(0))
-            T[0:3, 0:3] = rotFromQuat(rot)
-            T[0:3, 3] = trans
+            robot_pose = 
         except:
             pass
         
