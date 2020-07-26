@@ -75,6 +75,14 @@ while not rospy.is_shutdown():
         upper_blue = np.array([140,255,180])
         mask2 = cv2.inRange(Ihsv, lower_blue, upper_blue)
 
+        # gold mask
+        #lower_yellow = np.array([15,50,50])
+        #upper_yellow = np.array([25,255,255])
+        #mask3 = cv2.inRange(Ihsv, lower_yellow, upper_yellow)
+
+        # join beer colors masks
+        #beerMask = mask2+mask3
+        #beerMask = cv2.morphologyEx(beerMask, cv2.MORPH_CLOSE, kernel)
         # Joint masks
         canMask = mask0+mask1+mask2
         canMask = cv2.morphologyEx(canMask, cv2.MORPH_CLOSE, kernel)
@@ -100,7 +108,6 @@ while not rospy.is_shutdown():
                 else:
                     cv2.rectangle(I, (x, y), (x + w, y + h), (20,20,215), 2)
                     cv2.putText(I, 'Can', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (20,20,215),2)
-
         
         posx = x_l + (w_l / 2)
         posy = y_l + (h_l / 2)
@@ -118,6 +125,29 @@ while not rospy.is_shutdown():
         except:
             pass
         
+        # Find contours
+        cnts = cv2.findContours(canMask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        cnts = cnts[0] if len(cnts) == 2 else cnts[1]
+        # Iterate thorugh contours and filter for ROI
+        for c in cnts:
+            x,y,w,h = cv2.boundingRect(c)
+            if w < h:
+                cv2.rectangle(Idepth, (x, y), (x + w, y + h), (36,255,12), 2)
+                cv2.putText(Idepth, 'Can', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (36,255,12),2)
+
+        try:
+            posx = x + (w / 2)
+            posy = y + (h / 2)
+            cv2.rectangle(Idepth, (posx, posy), (posx + 3, posy + 3), (36,255,12), 2)
+            measurement = Idepth[posx][posy]
+            print(measurement)
+        except:
+            print("Wrong measurement")
+        # Mostrar la imagen
+        cv2.imshow("Imagen", Idepth)
+
+        # Mostrar la imagen
+        cv2.imshow("Imagen", canImg)
 
     # Esperar al bucle para actualizar
     cv2.waitKey(1)
