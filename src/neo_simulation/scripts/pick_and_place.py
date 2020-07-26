@@ -5,8 +5,9 @@ import copy
 import rospy
 import moveit_commander
 import moveit_msgs.msg
-import geometry_msgs.msg
+from geometry_msgs.msg import PoseStamped
 from neo_simulation.msg import Command
+from actionlib_msgs.msg import GoalStatusArray
 from math import pi
 from moveit_commander.conversions import pose_to_list
 from std_msgs.msg import String
@@ -16,13 +17,18 @@ class CanObject(object):
     def __init__(self):
         self.can_type = ""
         self.command = 0
-        topic = '/can_command'
-        self.subs = rospy.Subscriber(topic, Command, self.callback)
+        self.status = 0
+        topic1 = '/can_command'
+        self.subs = rospy.Subscriber(topic1, Command, self.callback)
+        topic2 = '/move_base/status'
+        self.subs2 = rospy.Subscriber(topic2, GoalStatusArray, self.callback2)
         
     def callback(self, msg):
         self.can_type = msg.can_type
         self.command = msg.command
 
+    def callback2(self, msg):
+        self.status = msg.status_list[0].status
 
 def move_near():
     joint_goal = move_group.get_current_joint_values()
@@ -114,8 +120,25 @@ def grab(can_type):
     return
 
 
-moveit_commander.roscpp_initialize(sys.argv)
 rospy.init_node('move_arm', anonymous=True)
+# Box Nav Goal
+pose_box_msg = PoseStamped()
+pose_box_msg.header.stamp = rospy.Time.now()
+pose_box_msg.header.frame_id = "odom"
+
+pose_box_msg.pose.position.x = -2.66257715225
+pose_box_msg.pose.position.y = 13.1178560257
+pose_box_msg.pose.position.z = 0.0
+
+pose_box_msg.pose.orientation.x = 0.0
+pose_box_msg.pose.orientation.y = 0.0
+pose_box_msg.pose.orientation.z = 0.713002268876
+pose_box_msg.pose.orientation.w = 0.70116172498
+
+pub = rospy.Publisher('/move_base_simple/goal', PoseStamped, queue_size=10)
+
+moveit_commander.roscpp_initialize(sys.argv)
+
 
 robot = moveit_commander.RobotCommander()
 scene = moveit_commander.PlanningSceneInterface()
@@ -132,18 +155,24 @@ move_group2 = moveit_commander.MoveGroupCommander(group_name2)
 
 robot_msg = CanObject()
 
-rate = rospy.Rate(10)
+rate = rospy.Rate(50)
+
+flag = False
 while not rospy.is_shutdown():
-    if robot_msg.command == 1:
+    if robot_msg.command == 1 and flag == False:
+        flag = True
         move_near()
         open_gripper()
         lower_gripper(robot_msg.can_type)
         grab(robot_msg.can_type)
         move_near()
         move_walk()
-    elif robot_msg.command == 2:
+        pub.publish(pose_box_msg)
+    elif robot_msg.status == 3 and flag == True:
+        flag = False
+        rospy.sleep(5)
         move_to_box(robot_msg.can_type)
         open_gripper()
         move_walk()
-
+    rate.sleep()
 

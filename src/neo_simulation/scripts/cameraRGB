@@ -35,7 +35,7 @@ topic_pub = 'image_out'
 pubimg = rospy.Publisher(topic_pub, Image, queue_size=10)
 
 # Morph
-kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5,5))
+kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (15,15))
 
 # Frecuencia del bucle principal
 freq = 10
@@ -48,55 +48,43 @@ while not rospy.is_shutdown():
     if flag:
         # Convertir BGR a HSV
         Ihsv = cv2.cvtColor(I, cv2.COLOR_BGR2HSV)
-        # red lower mask (0-10)
+        
+        # Red lower mask (0-10)
         lower_red = np.array([0,50,50])
         upper_red = np.array([5,255,255])
         mask0 = cv2.inRange(Ihsv, lower_red, upper_red)
 
-        # red upper mask (170-180)
+        # Red upper mask (170-180)
         lower_red = np.array([175,50,50])
         upper_red = np.array([180,255,255])
         mask1 = cv2.inRange(Ihsv, lower_red, upper_red)
-
-        # join red masks
-        sodaMask = mask0+mask1
-        sodaMask = cv2.morphologyEx(sodaMask, cv2.MORPH_OPEN, kernel)
-        #sodaMask = cv2.dilate(sodaMask, kernel, iterations=2)
-        sodaMask = cv2.morphologyEx(sodaMask, cv2.MORPH_OPEN, kernel)
-        sodaMask = cv2.dilate(sodaMask, kernel, iterations=2)
         
-        # blue mask
-        lower_blue = np.array([100,140,0])
+        # Blue mask
+        lower_blue = np.array([113,140,0])
         upper_blue = np.array([140,255,180])
         mask2 = cv2.inRange(Ihsv, lower_blue, upper_blue)
+        
         # gold mask
-        lower_yellow = np.array([15,50,50])
-        upper_yellow = np.array([25,255,255])
-        mask3 = cv2.inRange(Ihsv, lower_yellow, upper_yellow)
+        #lower_yellow = np.array([15,50,50])
+        #upper_yellow = np.array([25,255,255])
+        #mask3 = cv2.inRange(Ihsv, lower_yellow, upper_yellow)
 
         # join beer colors masks
-        beerMask = mask2+mask3
-        beerMask = cv2.morphologyEx(beerMask, cv2.MORPH_CLOSE, kernel)
-        beerMask = cv2.dilate(beerMask, kernel, iterations=2)
+        #beerMask = mask2+mask3
+        #beerMask = cv2.morphologyEx(beerMask, cv2.MORPH_CLOSE, kernel)
+        #beerMask = cv2.dilate(beerMask, kernel, iterations=2)
 
-        # Find contours
-        cnts1 = cv2.findContours(sodaMask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        cnts1 = cnts1[0] if len(cnts1) == 2 else cnts1[1]
-        cnts2 = cv2.findContours(beerMask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
-        cnts2 = cnts2[0] if len(cnts2) == 2 else cnts2[1]
-        cnts = zip(cnts1, cnts2)
-        # Iterate thorugh contours and filter for ROI
-        for c1, c2 in cnts:
-            x1,y1,w1,h1 = cv2.boundingRect(c1)
-            x2,y2,w2,h2 = cv2.boundingRect(c2)
-            if w1 < h1:
-                cv2.rectangle(I, (x1, y1), (x1 + w1, y1 + h1), (36,255,12), 2)
-                cv2.putText(I, 'Coke', (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (36,255,12),2)
-            if w2 < h2:
-                cv2.rectangle(I, (x2, y2), (x2 + w2, y2 + h2), (36,255,12), 2)
-                cv2.putText(I, 'Beer', (x2, y2-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (36,255,12),2)
+        # Joint masks
+        canMask = mask0+mask1+mask2
+        canMask = cv2.morphologyEx(canMask, cv2.MORPH_CLOSE, kernel)
+        canMask = cv2.dilate(canMask, kernel, iterations=2)
+        #canMask = cv2.morphologyEx(canMask, cv2.MORPH_OPEN, kernel)
+        #canMask = cv2.dilate(canMask, kernel, iterations=2)
+        canImg = cv2.bitwise_and(I,I,mask = canMask)
+
         # Mostrar la imagen
-        cv2.imshow("Imagen", I)
+        cv2.imshow("Imagen", canImg)
+
     # Esperar al bucle para actualizar
     cv2.waitKey(1)
     # Opcional: publicar la imagen de salida como tópico de ROS
