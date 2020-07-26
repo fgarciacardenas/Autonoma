@@ -8,27 +8,37 @@
 import rospy
 import cv2
 import numpy as np
-from sensor_msgs.msg import Image
+from sensor_msgs.msg import Image, PointCloud2
 from cv_bridge import CvBridge
+import matplotlib.pyplot as plt
+import tf
 
 class Cam(object):
-    def __init__(self, topic_name="camera/rgb/image_raw"):
+    def __init__(self, topic_name="camera/rgb/image_raw", topic_name2="camera/depth/image_raw"):
         self.bridge = CvBridge()
         self.image = np.zeros((10,10))
+        self.depth = Image()
         isub = rospy.Subscriber(topic_name, Image, self.image_callback)
+        idep = rospy.Subscriber(topic_name2, Image, self.depth_callback)
 
     def image_callback(self, img):
         self.image = self.bridge.imgmsg_to_cv2(img, "bgr8")
 
+    def depth_callback(self, img):
+        self.depth = self.bridge.imgmsg_to_cv2(img, "passthrough")
     def get_image(self):
         return self.image
+
+    def get_depth(self):
+        return self.depth
 
 # Inicializar el nodo de ROS
 rospy.init_node('camera_node')
 
 # Objeto que se suscribe al tópico de la cámara
 topic_name = "/camera/rgb/image_raw"
-cam = Cam(topic_name)
+topic_name2 = "/camera/depth/image_raw"
+cam = Cam(topic_name, topic_name2)
 
 # Tópico para publicar una imagen de salida
 topic_pub = 'image_out'
@@ -45,6 +55,7 @@ flag = False
 while not rospy.is_shutdown():
     # Obtener la imagen del tópico de ROS en formato de OpenCV
     I = cam.get_image()
+    Idepth = cam.get_depth()
     if flag:
         # Convertir BGR a HSV
         Ihsv = cv2.cvtColor(I, cv2.COLOR_BGR2HSV)
@@ -63,16 +74,6 @@ while not rospy.is_shutdown():
         lower_blue = np.array([113,140,0])
         upper_blue = np.array([140,255,180])
         mask2 = cv2.inRange(Ihsv, lower_blue, upper_blue)
-        
-        # gold mask
-        #lower_yellow = np.array([15,50,50])
-        #upper_yellow = np.array([25,255,255])
-        #mask3 = cv2.inRange(Ihsv, lower_yellow, upper_yellow)
-
-        # join beer colors masks
-        #beerMask = mask2+mask3
-        #beerMask = cv2.morphologyEx(beerMask, cv2.MORPH_CLOSE, kernel)
-        #beerMask = cv2.dilate(beerMask, kernel, iterations=2)
 
         # Joint masks
         canMask = mask0+mask1+mask2
@@ -81,9 +82,42 @@ while not rospy.is_shutdown():
         #canMask = cv2.morphologyEx(canMask, cv2.MORPH_OPEN, kernel)
         #canMask = cv2.dilate(canMask, kernel, iterations=2)
         canImg = cv2.bitwise_and(I,I,mask = canMask)
+        Idepth = cv2.bitwise_and(Idepth,Idepth,mask = canMask)
 
+        # Find contours
+        cnts = cv2.findContours(canMask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        cnts = cnts[0] if len(cnts) == 2 else cnts[1]
+        # Iterate thorugh contours and filter for ROI
+        flag = True
+        for c in cnts:
+            x,y,w,h = cv2.boundingRect(c)
+            if w < h:
+                if flag:
+                    cv2.rectangle(I, (x, y), (x + w, y + h), (36,255,12), 2)
+                    cv2.putText(I, 'Locked Can', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (36,255,12),2)
+                    flag = False
+                    x_l,y_l,w_l,h_l = cv2.boundingRect(c)
+                else:
+                    cv2.rectangle(I, (x, y), (x + w, y + h), (20,20,215), 2)
+                    cv2.putText(I, 'Can', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.4, (20,20,215),2)
+
+        
+        posx = x_l + (w_l / 2)
+        posy = y_l + (h_l / 2)
+        print("depth", Idepth[posy,posx])
         # Mostrar la imagen
-        cv2.imshow("Imagen", canImg)
+        cv2.imshow("Imagen", I)
+
+        tflistener = tf.TransformListener()
+        try:
+            (trans, rot) = tflistener.lookupTransform(
+                'base_link', 'base_scan', rospy.Time(0))
+            T[0:3, 0:3] = rotFromQuat(rot)
+            T[0:3, 3] = trans
+            
+        except:
+            pass
+        
 
     # Esperar al bucle para actualizar
     cv2.waitKey(1)
