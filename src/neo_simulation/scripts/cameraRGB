@@ -32,6 +32,15 @@ class Cam(object):
     def get_depth(self):
         return self.depth
 
+
+def rotFromQuat(q):
+    """ q = [ex, ey, ez, ew]
+    """
+    return np.array([[2.*(q[3]**2+q[0]**2)-1., 2.*(q[0]*q[1]-q[3]*q[2]), 2.*(q[0]*q[2]+q[3]*q[1])],
+                     [2.*(q[0]*q[1]+q[3]*q[2]), 2.*(q[3]**2+q[1]**2) -
+                      1., 2.*(q[1]*q[2]-q[3]*q[0])],
+                     [2.*(q[0]*q[2]-q[3]*q[1]), 2.*(q[1]*q[2]+q[3]*q[0]), 2.*(q[3]**2+q[2]**2)-1.]])
+
 # Inicializar el nodo de ROS
 rospy.init_node('camera_node')
 
@@ -116,15 +125,16 @@ while not rospy.is_shutdown():
         cv2.imshow("Imagen", I)
 
         tflistener = tf.TransformListener()
+        T = np.eye(4)
         try:
             (trans, rot) = tflistener.lookupTransform(
-                'base_link', 'base_scan', rospy.Time(0))
+                'odom', 'base_link', rospy.Time(0))
             T[0:3, 0:3] = rotFromQuat(rot)
             T[0:3, 3] = trans
-            
         except:
             pass
         
+        tflistener.trans
         # Find contours
         cnts = cv2.findContours(canMask, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
         cnts = cnts[0] if len(cnts) == 2 else cnts[1]

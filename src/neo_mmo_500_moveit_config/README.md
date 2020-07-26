@@ -1,0 +1,1 @@
+# neo_mmo_500_movebase_config
